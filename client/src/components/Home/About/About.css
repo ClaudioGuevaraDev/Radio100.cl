@@ -1,0 +1,14 @@
+.titulo-about {
+    font-size: 3.2em;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 800px) {
+    .titulo-about {
+        font-size: 2.3em;
+    }
+
+    .parrafo-about {
+        text-align: justify;
+    }
+}

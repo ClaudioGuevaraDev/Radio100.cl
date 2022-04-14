@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+* {
+    scroll-behavior: smooth;
+    scroll-padding: 5.1em;
+    font-family: 'Open Sans', sans-serif;
+}

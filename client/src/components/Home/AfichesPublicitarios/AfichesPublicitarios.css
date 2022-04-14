@@ -1,0 +1,28 @@
+.flyers {
+	padding-top: 1.3rem;
+	padding-bottom: 3rem;
+	margin: 0 auto;
+}
+
+.item {
+	transition: .5s ease-in-out;
+}
+
+.item:hover {
+	filter: brightness(75%);
+}
+
+.flyer__img{
+	cursor: pointer;
+}
+
+.parrafo {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+@media screen and (max-width:800px) {
+	.titulo-afiches {
+		font-size: 2.2em;
+	}
+}

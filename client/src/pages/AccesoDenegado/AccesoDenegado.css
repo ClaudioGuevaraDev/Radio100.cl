@@ -1,0 +1,17 @@
+.content-access{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #202020;
+	z-index: -1;
+	text-align: center;
+}
+.content-access .header{
+	font-size: 45px;
+	font-weight: 600;
+}
+.content-access p{
+	font-size: 30px;
+	font-weight: 500;
+}

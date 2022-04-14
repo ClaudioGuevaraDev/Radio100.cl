@@ -1,0 +1,41 @@
+.logo {
+    width: 4.5rem;
+    height: 4.5rem;
+}
+
+.titulo_principal {
+    font-weight: 500;
+}
+
+.navbar-nav li {
+    padding-right: 20px;
+}
+.nav-link {
+    font-size: 1.2em;
+    font-weight:normal;
+}
+
+.nav-link-principal::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #0b0b0b;
+    transition: width .3s;
+}
+
+.nav-link-principal:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+@media screen and (max-width: 800px) {
+    .titulo_principal {
+        font-size: 1.5rem;
+        margin-right: 0.5rem;
+    }
+    
+    .logo {
+        margin-left: 0.5rem;
+    }
+}

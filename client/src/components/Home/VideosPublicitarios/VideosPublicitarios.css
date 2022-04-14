@@ -1,0 +1,26 @@
+.flyer-video {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	margin: 0 auto;	
+}
+
+.video-flyer {
+	border-radius: 15px;
+    width: 100%;
+    height: 100%;
+}
+
+.parrafo {
+	font-size: 1.2em;
+	font-weight: lighter;
+}
+@media screen and (max-width:800px) {
+    .video-flyer {
+        width: 23em;
+        height: 20rem;
+    }
+
+    .titulo-videos {
+        font-size: 2.2em;
+    }
+}
